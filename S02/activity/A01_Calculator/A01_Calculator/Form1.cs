@@ -223,7 +223,15 @@ namespace A01_Calculator
 
         private void btnErase_Click(object sender, EventArgs e)
         {
+            if (textDisplay.Text.Length > 0)
+            {
+                textDisplay.Text = textDisplay.Text.Substring(0, textDisplay.Text.Length - 1);
 
+                if (textEquation.Text.Length > 0)
+                {
+                    textEquation.Text = textEquation.Text.Substring(0,textEquation.Text.Length - 1);
+                }
+            }
         }
     }
 }
