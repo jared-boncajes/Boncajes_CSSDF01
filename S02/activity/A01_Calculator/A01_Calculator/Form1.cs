@@ -1,4 +1,5 @@
 using System.Data.OleDb;
+using System.Text;
 
 namespace A01_Calculator
 {
@@ -125,6 +126,10 @@ namespace A01_Calculator
             textEquation.Text += "= " + result.ToString();
             InsertEquationToDatabase(textEquation.Text);
 
+            DisplayDBToTB();
+
+            isNewEntry = true;
+
         }
 
         private void btnEqual_Click(object sender, EventArgs e)
@@ -134,7 +139,7 @@ namespace A01_Calculator
 
         private void InsertEquationToDatabase(string equationText)
         {
-            string connStr = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={dbPath};";
+            string connStr = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={dbPath};";
 
             string insertQuery = "INSERT INTO tbl_Calculator_History (Equation) VALUES (@equation)";
 
@@ -157,6 +162,68 @@ namespace A01_Calculator
             }
         }
 
+        private void DisplayDBToTB()
+        {
+            string dbPath = @"C:\LOCALDB\Calculator.mdb";
 
+            string connStr = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={dbPath};";
+
+            string query = "SELECT Equation FROM tbl_Calculator_History ORDER BY ID desc";
+
+            using (OleDbConnection conn = new OleDbConnection(connStr))
+            {
+                try
+                {
+                    conn.Open();
+
+                    OleDbCommand cmd = new OleDbCommand(query, conn);
+
+                    OleDbDataReader reader = cmd.ExecuteReader();
+
+                    StringBuilder sb = new StringBuilder();
+
+                    while (reader.Read())
+                    {
+                        string equation = reader["Equation"].ToString();
+
+                        sb.AppendLine(equation);
+                    }
+
+                    txtHistory.Multiline = true;
+
+                    txtHistory.ScrollBars = ScrollBars.Vertical;
+
+                    txtHistory.Text = sb.ToString();
+
+                    reader.Close();
+                    conn.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: " + ex.Message);
+                }
+            }
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            textDisplay.Text = "0";
+
+            isNewEntry = true;
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            textDisplay.Text = "0";
+
+            textEquation.Text = "";
+
+            isNewEntry = true;
+        }
+
+        private void btnErase_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

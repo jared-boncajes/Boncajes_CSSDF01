@@ -131,6 +131,7 @@
             btnErase.TabIndex = 15;
             btnErase.Text = "⌫";
             btnErase.UseVisualStyleBackColor = false;
+            btnErase.Click += btnErase_Click;
             // 
             // btnDelete
             // 
@@ -142,6 +143,7 @@
             btnDelete.TabIndex = 16;
             btnDelete.Text = "C";
             btnDelete.UseVisualStyleBackColor = false;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnClear
             // 
@@ -153,6 +155,7 @@
             btnClear.TabIndex = 17;
             btnClear.Text = "CE";
             btnClear.UseVisualStyleBackColor = false;
+            btnClear.Click += btnClear_Click;
             // 
             // btn9
             // 
