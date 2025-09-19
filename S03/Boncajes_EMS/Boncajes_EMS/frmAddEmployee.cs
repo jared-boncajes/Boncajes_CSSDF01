@@ -17,7 +17,8 @@ namespace Boncajes_EMS
             InitializeComponent();
         }
 
-        private void btnInsertUpdate_Click(object sender, EventArgs e)
+        private void btnInsertUpdate_Click(object sender, EventArgs e) //Hindi Explained properly ni sir ginagawa ng bawat code here
+            //Ang general Premise neto. Kapag nag Add EMployee ka sa Add Employee Form ilalagay nya sa Database yung Data
         {
             bool dtg_addrequestor = false;
             string EMS_data = string.Empty;

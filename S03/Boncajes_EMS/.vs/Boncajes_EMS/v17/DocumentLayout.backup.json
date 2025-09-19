@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|c:\\red\\itecc05repos\\boncajes_cssdf01\\s03\\boncajes_ems\\boncajes_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\boncajes_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|solutionrelative:boncajes_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -11,11 +11,11 @@
       "RelativeMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|solutionrelative:boncajes_ems\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\boncajes_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|c:\\red\\itecc05repos\\boncajes_cssdf01\\s03\\boncajes_ems\\boncajes_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|solutionrelative:boncajes_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\boncajes_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|c:\\red\\itecc05repos\\boncajes_cssdf01\\s03\\boncajes_ems\\boncajes_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|solutionrelative:boncajes_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|solutionrelative:boncajes_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\boncajes_ems\\frmaddemployee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|c:\\red\\itecc05repos\\boncajes_cssdf01\\s03\\boncajes_ems\\boncajes_ems\\frmaddemployee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|solutionrelative:boncajes_ems\\frmaddemployee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,7 +46,8 @@
               "RelativeToolTip": "Boncajes_EMS\\frmAddEmployee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T03:17:14.547Z"
+              "WhenOpened": "2025-09-19T03:17:14.547Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -70,7 +71,8 @@
               "ToolTip": "C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\Boncajes_EMS\\frmAddEmployee.cs [Design]",
               "RelativeToolTip": "Boncajes_EMS\\frmAddEmployee.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-13T02:15:16.528Z"
+              "WhenOpened": "2025-09-13T02:15:16.528Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -81,7 +83,8 @@
               "ToolTip": "C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\Boncajes_EMS\\Form1.cs [Design]",
               "RelativeToolTip": "Boncajes_EMS\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T23:41:47.755Z"
+              "WhenOpened": "2025-09-12T23:41:47.755Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -105,7 +108,8 @@
               "RelativeToolTip": "Boncajes_EMS\\frmAddEmployee.Designer.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAlwDkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T02:53:25.752Z"
+              "WhenOpened": "2025-09-19T02:53:25.752Z",
+              "EditorCaption": ""
             }
           ]
         }

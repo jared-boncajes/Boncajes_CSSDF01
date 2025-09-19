@@ -18,6 +18,7 @@ namespace Boncajes_EMS
         }
 
         private void pnlTitleBar_MouseDown(object sender, MouseEventArgs e)
+        //Dito gumagana yung nasa Common na Class. Kapag Hinold mo yung Left Click sa Top Panel, pede mo idrag ang window
         {
             if(e.Button == MouseButtons.Left)
             {
@@ -26,22 +27,26 @@ namespace Boncajes_EMS
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e) 
+        //Inedit dito kung paano ididisplay ang Form pagka-Open sa program
         {
-            this.Text = string.Empty;
-            this.ControlBox=false;
-            this.DoubleBuffered=true;
-            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+            this.Text = string.Empty; //Tinatanggal yung title bar sa taas ng Windows Program
+            this.ControlBox=false; //Tinatanggal yung Minimize, Maximize, at Close Button sa Taas.
+            this.DoubleBuffered=true; //Ewan kay sir ano to
+            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea; 
+            //Since nagdidisplay ng isa pang Form sa loob Ng Form ginagawa to para nagaadjust yung layout.
         }
 
-        private void btnMinimize_Click(object sender, EventArgs e)
+        private void btnMinimize_Click(object sender, EventArgs e) //Double Click yung Ginawang Minimize button para lumabas to
+           //Since tinanggal yung mismong minimize control sa taas. Gumawa ng sariling button for Minimize Window
         {
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void btnMaximize_Click(object sender, EventArgs e)
+        private void btnMaximize_Click(object sender, EventArgs e) //Double Click yung Ginawang Maximize button para lumabas to
+        //Since tinanggal yung mismong maximize control sa taas. Gumawa ng sariling button for Maximize Window
         {
-            if(WindowState == FormWindowState.Normal)
+            if (WindowState == FormWindowState.Normal)
             {
                 this.WindowState= FormWindowState.Maximized;
             }
@@ -51,23 +56,24 @@ namespace Boncajes_EMS
             }
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
+        private void btnClose_Click(object sender, EventArgs e) //Double Click yung Ginawang Close button para lumabas to
+        //Since tinanggal yung mismong Close control sa taas. Gumawa ng sariling button for Close Window
         {
             this.Close();
         }
 
-        private void btnMasterData_Click(object sender, EventArgs e)
+        private void btnMasterData_Click(object sender, EventArgs e) //Double Click yung ginawang Master Data Button
         {
-            OpenChildForm(new frmMasterData());
+            OpenChildForm(new frmMasterData()); //Inoopen yung MasterData Form sa Stage na ginawa sa Form1
         }
 
         private Button currentBtn;
         private Panel leftBorderBtn;
-        private Form currentChildform;
+        private Form currentChildform; //NO Explanation si Sir sa tatlong to pero need
 
-        private void OpenChildForm(Form childform)
+        private void OpenChildForm(Form childform) //Function na nag-aallow mag-open ng another form dun sa Blank Space sa Form1
         {
-            if (currentChildform != null)
+            if (currentChildform != null) //Chinecheck if may nakaopen na Form, If meron icloclose muna, If wala proceed
             {
                 currentChildform.Close();
             }
@@ -81,9 +87,9 @@ namespace Boncajes_EMS
             childform.Show();
         }
 
-        private void btnAddEmployee_Click(object sender, EventArgs e)
+        private void btnAddEmployee_Click(object sender, EventArgs e) //Double Click yung ginawang Add Employee Button
         {
-            OpenChildForm(new frmAddEmployee());
+            OpenChildForm(new frmAddEmployee()); //Inoopen yung Add Employee Form
         }
     }
 }

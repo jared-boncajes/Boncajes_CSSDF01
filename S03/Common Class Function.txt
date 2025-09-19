@@ -1,4 +1,0 @@
-Common Class Function
-Allows to drag the Forms Window when MouseDown on TopPanel
-
-OleDB Show Potential Fixes Using OleDB
