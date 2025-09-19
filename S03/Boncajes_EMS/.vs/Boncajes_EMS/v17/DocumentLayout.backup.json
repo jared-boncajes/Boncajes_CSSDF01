@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\boncajes_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\boncajes_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|solutionrelative:boncajes_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|c:\\red\\itecc05repos\\boncajes_cssdf01\\s03\\boncajes_ems\\boncajes_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|solutionrelative:boncajes_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -11,19 +15,15 @@
       "RelativeMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|solutionrelative:boncajes_ems\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|c:\\red\\itecc05repos\\boncajes_cssdf01\\s03\\boncajes_ems\\boncajes_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\boncajes_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|solutionrelative:boncajes_ems\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|c:\\red\\itecc05repos\\boncajes_cssdf01\\s03\\boncajes_ems\\boncajes_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\boncajes_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|solutionrelative:boncajes_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\boncajes_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|solutionrelative:boncajes_ems\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|c:\\red\\itecc05repos\\boncajes_cssdf01\\s03\\boncajes_ems\\boncajes_ems\\frmaddemployee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\boncajes_ems\\frmaddemployee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69F0C3F6-F038-449F-A8F5-6CD62A79211F}|Boncajes_EMS\\Boncajes_EMS.csproj|solutionrelative:boncajes_ems\\frmaddemployee.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmAddEmployee.cs",
               "DocumentMoniker": "C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\Boncajes_EMS\\frmAddEmployee.cs",
               "RelativeDocumentMoniker": "Boncajes_EMS\\frmAddEmployee.cs",
@@ -51,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "frmMasterData.cs",
               "DocumentMoniker": "C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\Boncajes_EMS\\frmMasterData.cs",
               "RelativeDocumentMoniker": "Boncajes_EMS\\frmMasterData.cs",
@@ -64,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "frmAddEmployee.cs [Design]",
               "DocumentMoniker": "C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\Boncajes_EMS\\frmAddEmployee.cs",
               "RelativeDocumentMoniker": "Boncajes_EMS\\frmAddEmployee.cs",
@@ -76,19 +76,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\Boncajes_EMS\\Form1.cs",
               "RelativeDocumentMoniker": "Boncajes_EMS\\Form1.cs",
               "ToolTip": "C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\Boncajes_EMS\\Form1.cs [Design]",
               "RelativeToolTip": "Boncajes_EMS\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T23:41:47.755Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-12T23:41:47.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmMasterData.cs [Design]",
               "DocumentMoniker": "C:\\RED\\ITECC05repos\\Boncajes_CSSDF01\\S03\\Boncajes_EMS\\Boncajes_EMS\\frmMasterData.cs",
               "RelativeDocumentMoniker": "Boncajes_EMS\\frmMasterData.cs",
