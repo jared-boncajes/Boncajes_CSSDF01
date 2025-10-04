@@ -10,17 +10,19 @@ using System.Drawing;
 
 namespace Boncajes_EMS.CRUD
 {
-    public static class CRUD
+    public static class CRUD //Need daw to, no proper explanation si sir >:C
     {
 
-        public static OleDbConnection con = connection.mysqldb();
+        public static OleDbConnection con = connection.mysqldb(); //If red ang OleDB [Show Potential Fixes
+                                                                  //tapos using System.Data.OleDb]
         public static OleDbCommand cmd = new OleDbCommand();
         public static OleDbDataAdapter da = new OleDbDataAdapter();
-        public static DataTable dt = new DataTable();
+        public static DataTable dt = new DataTable(); //If red ang DataTable and DataSet [Show Potential fixes
+                                                      //tapos using System.Data
         public static DataSet ds = new DataSet();
         public static int resultSQL;
         public static Image getIMG = null/* TODO Change to default(_) if this is not a reference type */;
-
+        //If red yung Image [Show Potential Fixes and then using Sytem.Drawing
         public static bool RETRIEVESINGLE(string SQL)
         {
 

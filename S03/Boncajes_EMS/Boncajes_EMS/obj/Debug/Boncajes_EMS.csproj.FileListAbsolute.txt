@@ -11,3 +11,21 @@ C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S03\Boncajes_EMS\Boncajes
 C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.csproj.CoreCompileInputs.cache
 C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.exe
 C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.pdb
+<<<<<<< HEAD
+=======
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.frmMasterData.resources
+C:\Users\RhianJaredBoncajes\Documents\Boncajes-CS2_OOP\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.frmAddEmployee.resources
+C:\RED\ITECC05repos\Boncajes_CSSDF01\S03\Boncajes_EMS\Boncajes_EMS\bin\Debug\Boncajes_EMS.exe.config
+C:\RED\ITECC05repos\Boncajes_CSSDF01\S03\Boncajes_EMS\Boncajes_EMS\bin\Debug\Boncajes_EMS.exe
+C:\RED\ITECC05repos\Boncajes_CSSDF01\S03\Boncajes_EMS\Boncajes_EMS\bin\Debug\Boncajes_EMS.pdb
+C:\RED\ITECC05repos\Boncajes_CSSDF01\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.csproj.AssemblyReference.cache
+C:\RED\ITECC05repos\Boncajes_CSSDF01\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.exe.config
+C:\RED\ITECC05repos\Boncajes_CSSDF01\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.Form1.resources
+C:\RED\ITECC05repos\Boncajes_CSSDF01\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.frmAddEmployee.resources
+C:\RED\ITECC05repos\Boncajes_CSSDF01\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.frmMasterData.resources
+C:\RED\ITECC05repos\Boncajes_CSSDF01\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.Properties.Resources.resources
+C:\RED\ITECC05repos\Boncajes_CSSDF01\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.csproj.GenerateResource.cache
+C:\RED\ITECC05repos\Boncajes_CSSDF01\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.csproj.CoreCompileInputs.cache
+C:\RED\ITECC05repos\Boncajes_CSSDF01\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.exe
+C:\RED\ITECC05repos\Boncajes_CSSDF01\S03\Boncajes_EMS\Boncajes_EMS\obj\Debug\Boncajes_EMS.pdb
+>>>>>>> 1c39dc561bde2f812d4e686ac43365f21173e9de
