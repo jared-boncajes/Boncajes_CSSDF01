@@ -31,17 +31,17 @@
             this.pnlSubtitle = new System.Windows.Forms.Panel();
             this.lblAddEmployee = new System.Windows.Forms.Label();
             this.gbEmployeeInput = new System.Windows.Forms.GroupBox();
-            this.lblEmployeeNumber = new System.Windows.Forms.Label();
-            this.lblRequestorName = new System.Windows.Forms.Label();
-            this.lblEmailAddress = new System.Windows.Forms.Label();
-            this.lblLocalNumber = new System.Windows.Forms.Label();
-            this.lblSection = new System.Windows.Forms.Label();
-            this.tbEmployeeNumber = new System.Windows.Forms.TextBox();
-            this.tbRequestorName = new System.Windows.Forms.TextBox();
-            this.tbEmailAddress = new System.Windows.Forms.TextBox();
-            this.tbLocalNumber = new System.Windows.Forms.TextBox();
-            this.cmbSection = new System.Windows.Forms.ComboBox();
             this.btnInsertUpdate = new System.Windows.Forms.Button();
+            this.cmbSection = new System.Windows.Forms.ComboBox();
+            this.tbLocalNumber = new System.Windows.Forms.TextBox();
+            this.tbEmailAddress = new System.Windows.Forms.TextBox();
+            this.tbRequestorName = new System.Windows.Forms.TextBox();
+            this.tbEmployeeNumber = new System.Windows.Forms.TextBox();
+            this.lblSection = new System.Windows.Forms.Label();
+            this.lblLocalNumber = new System.Windows.Forms.Label();
+            this.lblEmailAddress = new System.Windows.Forms.Label();
+            this.lblRequestorName = new System.Windows.Forms.Label();
+            this.lblEmployeeNumber = new System.Windows.Forms.Label();
             this.pnlSubtitle.SuspendLayout();
             this.gbEmployeeInput.SuspendLayout();
             this.SuspendLayout();
@@ -88,83 +88,17 @@
             this.gbEmployeeInput.TabStop = false;
             this.gbEmployeeInput.Text = "Employee Details Manual Insert and Update:";
             // 
-            // lblEmployeeNumber
+            // btnInsertUpdate
             // 
-            this.lblEmployeeNumber.AutoSize = true;
-            this.lblEmployeeNumber.Location = new System.Drawing.Point(12, 31);
-            this.lblEmployeeNumber.Name = "lblEmployeeNumber";
-            this.lblEmployeeNumber.Size = new System.Drawing.Size(96, 13);
-            this.lblEmployeeNumber.TabIndex = 1;
-            this.lblEmployeeNumber.Text = "Employee Number:";
-            // 
-            // lblRequestorName
-            // 
-            this.lblRequestorName.AutoSize = true;
-            this.lblRequestorName.Location = new System.Drawing.Point(18, 59);
-            this.lblRequestorName.Name = "lblRequestorName";
-            this.lblRequestorName.Size = new System.Drawing.Size(90, 13);
-            this.lblRequestorName.TabIndex = 2;
-            this.lblRequestorName.Text = "Requestor Name:";
-            // 
-            // lblEmailAddress
-            // 
-            this.lblEmailAddress.AutoSize = true;
-            this.lblEmailAddress.Location = new System.Drawing.Point(32, 91);
-            this.lblEmailAddress.Name = "lblEmailAddress";
-            this.lblEmailAddress.Size = new System.Drawing.Size(76, 13);
-            this.lblEmailAddress.TabIndex = 3;
-            this.lblEmailAddress.Text = "Email Address:";
-            // 
-            // lblLocalNumber
-            // 
-            this.lblLocalNumber.AutoSize = true;
-            this.lblLocalNumber.Location = new System.Drawing.Point(32, 125);
-            this.lblLocalNumber.Name = "lblLocalNumber";
-            this.lblLocalNumber.Size = new System.Drawing.Size(76, 13);
-            this.lblLocalNumber.TabIndex = 4;
-            this.lblLocalNumber.Text = "Local Number:";
-            // 
-            // lblSection
-            // 
-            this.lblSection.AutoSize = true;
-            this.lblSection.Location = new System.Drawing.Point(62, 157);
-            this.lblSection.Name = "lblSection";
-            this.lblSection.Size = new System.Drawing.Size(46, 13);
-            this.lblSection.TabIndex = 5;
-            this.lblSection.Text = "Section:";
-            // 
-            // tbEmployeeNumber
-            // 
-            this.tbEmployeeNumber.BackColor = System.Drawing.Color.PeachPuff;
-            this.tbEmployeeNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbEmployeeNumber.Location = new System.Drawing.Point(114, 28);
-            this.tbEmployeeNumber.Name = "tbEmployeeNumber";
-            this.tbEmployeeNumber.Size = new System.Drawing.Size(216, 20);
-            this.tbEmployeeNumber.TabIndex = 6;
-            // 
-            // tbRequestorName
-            // 
-            this.tbRequestorName.BackColor = System.Drawing.Color.Snow;
-            this.tbRequestorName.Location = new System.Drawing.Point(114, 56);
-            this.tbRequestorName.Name = "tbRequestorName";
-            this.tbRequestorName.Size = new System.Drawing.Size(424, 20);
-            this.tbRequestorName.TabIndex = 7;
-            // 
-            // tbEmailAddress
-            // 
-            this.tbEmailAddress.BackColor = System.Drawing.Color.Snow;
-            this.tbEmailAddress.Location = new System.Drawing.Point(114, 88);
-            this.tbEmailAddress.Name = "tbEmailAddress";
-            this.tbEmailAddress.Size = new System.Drawing.Size(424, 20);
-            this.tbEmailAddress.TabIndex = 8;
-            // 
-            // tbLocalNumber
-            // 
-            this.tbLocalNumber.BackColor = System.Drawing.Color.Snow;
-            this.tbLocalNumber.Location = new System.Drawing.Point(114, 122);
-            this.tbLocalNumber.Name = "tbLocalNumber";
-            this.tbLocalNumber.Size = new System.Drawing.Size(216, 20);
-            this.tbLocalNumber.TabIndex = 9;
+            this.btnInsertUpdate.BackColor = System.Drawing.Color.SeaShell;
+            this.btnInsertUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnInsertUpdate.Location = new System.Drawing.Point(114, 181);
+            this.btnInsertUpdate.Name = "btnInsertUpdate";
+            this.btnInsertUpdate.Size = new System.Drawing.Size(166, 28);
+            this.btnInsertUpdate.TabIndex = 11;
+            this.btnInsertUpdate.Text = "INSERT/UPDATE";
+            this.btnInsertUpdate.UseVisualStyleBackColor = false;
+            this.btnInsertUpdate.Click += new System.EventHandler(this.btnInsertUpdate_Click);
             // 
             // cmbSection
             // 
@@ -184,17 +118,83 @@
             this.cmbSection.Size = new System.Drawing.Size(216, 21);
             this.cmbSection.TabIndex = 10;
             // 
-            // btnInsertUpdate
+            // tbLocalNumber
             // 
-            this.btnInsertUpdate.BackColor = System.Drawing.Color.SeaShell;
-            this.btnInsertUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnInsertUpdate.Location = new System.Drawing.Point(114, 181);
-            this.btnInsertUpdate.Name = "btnInsertUpdate";
-            this.btnInsertUpdate.Size = new System.Drawing.Size(166, 28);
-            this.btnInsertUpdate.TabIndex = 11;
-            this.btnInsertUpdate.Text = "INSERT/UPDATE";
-            this.btnInsertUpdate.UseVisualStyleBackColor = false;
-            this.btnInsertUpdate.Click += new System.EventHandler(this.btnInsertUpdate_Click);
+            this.tbLocalNumber.BackColor = System.Drawing.Color.Snow;
+            this.tbLocalNumber.Location = new System.Drawing.Point(114, 122);
+            this.tbLocalNumber.Name = "tbLocalNumber";
+            this.tbLocalNumber.Size = new System.Drawing.Size(216, 20);
+            this.tbLocalNumber.TabIndex = 9;
+            // 
+            // tbEmailAddress
+            // 
+            this.tbEmailAddress.BackColor = System.Drawing.Color.Snow;
+            this.tbEmailAddress.Location = new System.Drawing.Point(114, 88);
+            this.tbEmailAddress.Name = "tbEmailAddress";
+            this.tbEmailAddress.Size = new System.Drawing.Size(424, 20);
+            this.tbEmailAddress.TabIndex = 8;
+            // 
+            // tbRequestorName
+            // 
+            this.tbRequestorName.BackColor = System.Drawing.Color.Snow;
+            this.tbRequestorName.Location = new System.Drawing.Point(114, 56);
+            this.tbRequestorName.Name = "tbRequestorName";
+            this.tbRequestorName.Size = new System.Drawing.Size(424, 20);
+            this.tbRequestorName.TabIndex = 7;
+            // 
+            // tbEmployeeNumber
+            // 
+            this.tbEmployeeNumber.BackColor = System.Drawing.Color.PeachPuff;
+            this.tbEmployeeNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbEmployeeNumber.Location = new System.Drawing.Point(114, 28);
+            this.tbEmployeeNumber.Name = "tbEmployeeNumber";
+            this.tbEmployeeNumber.Size = new System.Drawing.Size(216, 20);
+            this.tbEmployeeNumber.TabIndex = 6;
+            // 
+            // lblSection
+            // 
+            this.lblSection.AutoSize = true;
+            this.lblSection.Location = new System.Drawing.Point(62, 157);
+            this.lblSection.Name = "lblSection";
+            this.lblSection.Size = new System.Drawing.Size(46, 13);
+            this.lblSection.TabIndex = 5;
+            this.lblSection.Text = "Section:";
+            // 
+            // lblLocalNumber
+            // 
+            this.lblLocalNumber.AutoSize = true;
+            this.lblLocalNumber.Location = new System.Drawing.Point(32, 125);
+            this.lblLocalNumber.Name = "lblLocalNumber";
+            this.lblLocalNumber.Size = new System.Drawing.Size(76, 13);
+            this.lblLocalNumber.TabIndex = 4;
+            this.lblLocalNumber.Text = "Local Number:";
+            // 
+            // lblEmailAddress
+            // 
+            this.lblEmailAddress.AutoSize = true;
+            this.lblEmailAddress.Location = new System.Drawing.Point(32, 91);
+            this.lblEmailAddress.Name = "lblEmailAddress";
+            this.lblEmailAddress.Size = new System.Drawing.Size(76, 13);
+            this.lblEmailAddress.TabIndex = 3;
+            this.lblEmailAddress.Text = "Email Address:";
+            // 
+            // lblRequestorName
+            // 
+            this.lblRequestorName.AutoSize = true;
+            this.lblRequestorName.Location = new System.Drawing.Point(18, 59);
+            this.lblRequestorName.Name = "lblRequestorName";
+            this.lblRequestorName.Size = new System.Drawing.Size(90, 13);
+            this.lblRequestorName.TabIndex = 2;
+            this.lblRequestorName.Text = "Requestor Name:";
+            // 
+            // lblEmployeeNumber
+            // 
+            this.lblEmployeeNumber.AutoSize = true;
+            this.lblEmployeeNumber.Location = new System.Drawing.Point(12, 31);
+            this.lblEmployeeNumber.Name = "lblEmployeeNumber";
+            this.lblEmployeeNumber.Size = new System.Drawing.Size(96, 13);
+            this.lblEmployeeNumber.TabIndex = 1;
+            this.lblEmployeeNumber.Text = "Employee Number:";
             // 
             // frmAddEmployee
             // 
@@ -205,6 +205,8 @@
             this.Controls.Add(this.pnlSubtitle);
             this.Name = "frmAddEmployee";
             this.Text = "frmAddEmployee";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmAddEmployee_FormClosed);
+            this.Load += new System.EventHandler(this.frmAddEmployee_Load);
             this.pnlSubtitle.ResumeLayout(false);
             this.pnlSubtitle.PerformLayout();
             this.gbEmployeeInput.ResumeLayout(false);

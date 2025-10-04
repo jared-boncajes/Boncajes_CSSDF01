@@ -28,6 +28,10 @@ namespace Boncajes_EMS
 
         private void Form1_Load(object sender, EventArgs e)
         {
+    
+            lblFullName.Text = LoginPage.fullname;
+            lblSection.Text = LoginPage.Section;
+            lblAge.Text = LoginPage.Age;
             this.Text = string.Empty;
             this.ControlBox=false;
             this.DoubleBuffered=true;

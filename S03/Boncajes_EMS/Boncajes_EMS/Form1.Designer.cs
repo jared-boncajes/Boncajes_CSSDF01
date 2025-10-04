@@ -29,16 +29,21 @@
         private void InitializeComponent()
         {
             this.pnlTitleBar = new System.Windows.Forms.Panel();
-            this.pnlSidemenu = new System.Windows.Forms.Panel();
-            this.pnlStage = new System.Windows.Forms.Panel();
-            this.lblSystemName = new System.Windows.Forms.Label();
-            this.btnMasterData = new System.Windows.Forms.Button();
-            this.btnAddEmployee = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.btnMaximize = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
+            this.btnMaximize = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.lblSystemName = new System.Windows.Forms.Label();
+            this.pnlSidemenu = new System.Windows.Forms.Panel();
+            this.btnAddEmployee = new System.Windows.Forms.Button();
+            this.btnMasterData = new System.Windows.Forms.Button();
+            this.pnlStage = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.lblFullName = new System.Windows.Forms.Label();
+            this.lblSection = new System.Windows.Forms.Label();
+            this.lblAge = new System.Windows.Forms.Label();
             this.pnlTitleBar.SuspendLayout();
             this.pnlSidemenu.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlTitleBar
@@ -55,84 +60,20 @@
             this.pnlTitleBar.TabIndex = 0;
             this.pnlTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlTitleBar_MouseDown);
             // 
-            // pnlSidemenu
+            // btnMinimize
             // 
-            this.pnlSidemenu.BackColor = System.Drawing.Color.SandyBrown;
-            this.pnlSidemenu.Controls.Add(this.btnAddEmployee);
-            this.pnlSidemenu.Controls.Add(this.btnMasterData);
-            this.pnlSidemenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSidemenu.Location = new System.Drawing.Point(0, 72);
-            this.pnlSidemenu.Name = "pnlSidemenu";
-            this.pnlSidemenu.Size = new System.Drawing.Size(199, 425);
-            this.pnlSidemenu.TabIndex = 1;
-            // 
-            // pnlStage
-            // 
-            this.pnlStage.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.pnlStage.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlStage.Location = new System.Drawing.Point(199, 72);
-            this.pnlStage.Name = "pnlStage";
-            this.pnlStage.Size = new System.Drawing.Size(629, 425);
-            this.pnlStage.TabIndex = 2;
-            // 
-            // lblSystemName
-            // 
-            this.lblSystemName.AutoSize = true;
-            this.lblSystemName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSystemName.Location = new System.Drawing.Point(12, 24);
-            this.lblSystemName.Name = "lblSystemName";
-            this.lblSystemName.Size = new System.Drawing.Size(304, 24);
-            this.lblSystemName.TabIndex = 0;
-            this.lblSystemName.Text = "Employee Management System";
-            // 
-            // btnMasterData
-            // 
-            this.btnMasterData.BackColor = System.Drawing.Color.Bisque;
-            this.btnMasterData.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnMasterData.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnMasterData.FlatAppearance.BorderSize = 2;
-            this.btnMasterData.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Chocolate;
-            this.btnMasterData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMasterData.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMasterData.Location = new System.Drawing.Point(0, 0);
-            this.btnMasterData.Name = "btnMasterData";
-            this.btnMasterData.Size = new System.Drawing.Size(199, 43);
-            this.btnMasterData.TabIndex = 3;
-            this.btnMasterData.Text = "Master Data";
-            this.btnMasterData.UseVisualStyleBackColor = false;
-            this.btnMasterData.Click += new System.EventHandler(this.btnMasterData_Click);
-            // 
-            // btnAddEmployee
-            // 
-            this.btnAddEmployee.BackColor = System.Drawing.Color.Bisque;
-            this.btnAddEmployee.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAddEmployee.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnAddEmployee.FlatAppearance.BorderSize = 2;
-            this.btnAddEmployee.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Chocolate;
-            this.btnAddEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddEmployee.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddEmployee.Location = new System.Drawing.Point(0, 43);
-            this.btnAddEmployee.Name = "btnAddEmployee";
-            this.btnAddEmployee.Size = new System.Drawing.Size(199, 43);
-            this.btnAddEmployee.TabIndex = 4;
-            this.btnAddEmployee.Text = "Add Employee";
-            this.btnAddEmployee.UseVisualStyleBackColor = false;
-            this.btnAddEmployee.Click += new System.EventHandler(this.btnAddEmployee_Click);
-            // 
-            // btnClose
-            // 
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.BackColor = System.Drawing.Color.Tomato;
-            this.btnClose.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.ForeColor = System.Drawing.Color.Black;
-            this.btnClose.Location = new System.Drawing.Point(784, 24);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(32, 22);
-            this.btnClose.TabIndex = 1;
-            this.btnClose.Text = "X";
-            this.btnClose.UseVisualStyleBackColor = false;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimize.BackColor = System.Drawing.Color.White;
+            this.btnMinimize.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnMinimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimize.Location = new System.Drawing.Point(708, 24);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(32, 22);
+            this.btnMinimize.TabIndex = 3;
+            this.btnMinimize.Text = "━";
+            this.btnMinimize.UseVisualStyleBackColor = false;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
             // 
             // btnMaximize
             // 
@@ -149,20 +90,127 @@
             this.btnMaximize.UseVisualStyleBackColor = false;
             this.btnMaximize.Click += new System.EventHandler(this.btnMaximize_Click);
             // 
-            // btnMinimize
+            // btnClose
             // 
-            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnMinimize.BackColor = System.Drawing.Color.White;
-            this.btnMinimize.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnMinimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimize.Location = new System.Drawing.Point(708, 24);
-            this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(32, 22);
-            this.btnMinimize.TabIndex = 3;
-            this.btnMinimize.Text = "━";
-            this.btnMinimize.UseVisualStyleBackColor = false;
-            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.BackColor = System.Drawing.Color.Tomato;
+            this.btnClose.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.ForeColor = System.Drawing.Color.Black;
+            this.btnClose.Location = new System.Drawing.Point(784, 24);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(32, 22);
+            this.btnClose.TabIndex = 1;
+            this.btnClose.Text = "X";
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // lblSystemName
+            // 
+            this.lblSystemName.AutoSize = true;
+            this.lblSystemName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSystemName.Location = new System.Drawing.Point(12, 24);
+            this.lblSystemName.Name = "lblSystemName";
+            this.lblSystemName.Size = new System.Drawing.Size(304, 24);
+            this.lblSystemName.TabIndex = 0;
+            this.lblSystemName.Text = "Employee Management System";
+            // 
+            // pnlSidemenu
+            // 
+            this.pnlSidemenu.BackColor = System.Drawing.Color.SandyBrown;
+            this.pnlSidemenu.Controls.Add(this.btnAddEmployee);
+            this.pnlSidemenu.Controls.Add(this.btnMasterData);
+            this.pnlSidemenu.Controls.Add(this.panel1);
+            this.pnlSidemenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlSidemenu.Location = new System.Drawing.Point(0, 72);
+            this.pnlSidemenu.Name = "pnlSidemenu";
+            this.pnlSidemenu.Size = new System.Drawing.Size(199, 425);
+            this.pnlSidemenu.TabIndex = 1;
+            // 
+            // btnAddEmployee
+            // 
+            this.btnAddEmployee.BackColor = System.Drawing.Color.Bisque;
+            this.btnAddEmployee.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAddEmployee.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnAddEmployee.FlatAppearance.BorderSize = 2;
+            this.btnAddEmployee.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Chocolate;
+            this.btnAddEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddEmployee.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddEmployee.Location = new System.Drawing.Point(0, 158);
+            this.btnAddEmployee.Name = "btnAddEmployee";
+            this.btnAddEmployee.Size = new System.Drawing.Size(199, 43);
+            this.btnAddEmployee.TabIndex = 4;
+            this.btnAddEmployee.Text = "Add Employee";
+            this.btnAddEmployee.UseVisualStyleBackColor = false;
+            this.btnAddEmployee.Click += new System.EventHandler(this.btnAddEmployee_Click);
+            // 
+            // btnMasterData
+            // 
+            this.btnMasterData.BackColor = System.Drawing.Color.Bisque;
+            this.btnMasterData.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnMasterData.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnMasterData.FlatAppearance.BorderSize = 2;
+            this.btnMasterData.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Chocolate;
+            this.btnMasterData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMasterData.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMasterData.Location = new System.Drawing.Point(0, 115);
+            this.btnMasterData.Name = "btnMasterData";
+            this.btnMasterData.Size = new System.Drawing.Size(199, 43);
+            this.btnMasterData.TabIndex = 3;
+            this.btnMasterData.Text = "Master Data";
+            this.btnMasterData.UseVisualStyleBackColor = false;
+            this.btnMasterData.Click += new System.EventHandler(this.btnMasterData_Click);
+            // 
+            // pnlStage
+            // 
+            this.pnlStage.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.pnlStage.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlStage.Location = new System.Drawing.Point(199, 72);
+            this.pnlStage.Name = "pnlStage";
+            this.pnlStage.Size = new System.Drawing.Size(629, 425);
+            this.pnlStage.TabIndex = 2;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Bisque;
+            this.panel1.Controls.Add(this.lblAge);
+            this.panel1.Controls.Add(this.lblSection);
+            this.panel1.Controls.Add(this.lblFullName);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(199, 115);
+            this.panel1.TabIndex = 5;
+            // 
+            // lblFullName
+            // 
+            this.lblFullName.AutoSize = true;
+            this.lblFullName.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFullName.Location = new System.Drawing.Point(12, 23);
+            this.lblFullName.Name = "lblFullName";
+            this.lblFullName.Size = new System.Drawing.Size(55, 20);
+            this.lblFullName.TabIndex = 0;
+            this.lblFullName.Text = "label1";
+            // 
+            // lblSection
+            // 
+            this.lblSection.AutoSize = true;
+            this.lblSection.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSection.Location = new System.Drawing.Point(13, 52);
+            this.lblSection.Name = "lblSection";
+            this.lblSection.Size = new System.Drawing.Size(45, 16);
+            this.lblSection.TabIndex = 1;
+            this.lblSection.Text = "label1";
+            // 
+            // lblAge
+            // 
+            this.lblAge.AutoSize = true;
+            this.lblAge.Font = new System.Drawing.Font("Mongolian Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAge.Location = new System.Drawing.Point(13, 68);
+            this.lblAge.Name = "lblAge";
+            this.lblAge.Size = new System.Drawing.Size(45, 16);
+            this.lblAge.TabIndex = 2;
+            this.lblAge.Text = "label1";
             // 
             // Form1
             // 
@@ -178,6 +226,8 @@
             this.pnlTitleBar.ResumeLayout(false);
             this.pnlTitleBar.PerformLayout();
             this.pnlSidemenu.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -193,6 +243,10 @@
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnMaximize;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label lblFullName;
+        private System.Windows.Forms.Label lblAge;
+        private System.Windows.Forms.Label lblSection;
     }
 }
 
